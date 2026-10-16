@@ -3,7 +3,7 @@ import gymnasium as gym
 import numpy as np
 import matplotlib.pyplot as plt
 
-ALPHA = 0.5
+ALPHA = 0.9
 GAMMA = 0.99
 EPSILON_START = 1.0
 EPSILON_MIN = 0.01
