@@ -3,10 +3,10 @@ import gymnasium as gym
 import numpy as np
 import matplotlib.pyplot as plt
 
-ALPHA = 0.1
-GAMMA = 0.5
+ALPHA = 0.5
+GAMMA = 0.99
 EPSILON_START = 1.0
-EPSILON_MIN = 0.01
+EPSILON_MIN = 0.1
 EPSILON_DECAY = 0.995
 NUM_EPISODES = 10_000
 MAX_STEPS = 200
