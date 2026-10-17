@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ALPHA = 0.1
-GAMMA = 0.9
+GAMMA = 0.5
 EPSILON_START = 1.0
 EPSILON_MIN = 0.01
 EPSILON_DECAY = 0.995
